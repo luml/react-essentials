@@ -4,9 +4,13 @@ import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
+// Array destructuring
+const [, , lastItem] = ["boots", "tent", "headlamp"]
+console.log(lastItem)
+ 
 // React.Fragment can be removed
 ReactDOM.render(
-  <App />,
+  <App authorized={true}/>,
   document.getElementById('root')
 );
 
